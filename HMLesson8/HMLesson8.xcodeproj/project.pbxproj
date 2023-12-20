@@ -13,6 +13,8 @@
 		04D4698B2B3331E20062660F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D469892B3331E20062660F /* Main.storyboard */; };
 		04D4698D2B3331E50062660F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D4698C2B3331E50062660F /* Assets.xcassets */; };
 		04D469902B3331E50062660F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D4698E2B3331E50062660F /* LaunchScreen.storyboard */; };
+		04D469982B3332000062660F /* Beer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D469972B3332000062660F /* Beer.swift */; };
+		04D4699A2B33320A0062660F /* BeerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D469992B33320A0062660F /* BeerManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		04D4698C2B3331E50062660F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04D4698F2B3331E50062660F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04D469912B3331E50062660F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D469972B3332000062660F /* Beer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beer.swift; sourceTree = "<group>"; };
+		04D469992B33320A0062660F /* BeerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		04D469822B3331E20062660F /* HMLesson8 */ = {
 			isa = PBXGroup;
 			children = (
+				04D469972B3332000062660F /* Beer.swift */,
+				04D469992B33320A0062660F /* BeerManager.swift */,
 				04D469832B3331E20062660F /* AppDelegate.swift */,
 				04D469852B3331E20062660F /* SceneDelegate.swift */,
 				04D469872B3331E20062660F /* ViewController.swift */,
@@ -141,6 +147,8 @@
 				04D469882B3331E20062660F /* ViewController.swift in Sources */,
 				04D469842B3331E20062660F /* AppDelegate.swift in Sources */,
 				04D469862B3331E20062660F /* SceneDelegate.swift in Sources */,
+				04D4699A2B33320A0062660F /* BeerManager.swift in Sources */,
+				04D469982B3332000062660F /* Beer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
